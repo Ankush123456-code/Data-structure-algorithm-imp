@@ -112,4 +112,3 @@ int main()
     solve(arr, n, d);
 
     return 0;
-}
