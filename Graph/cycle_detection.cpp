@@ -26,7 +26,7 @@ int main()
     int n, m;
     cin >> n >> m;
     int x, y;
-
+    // Adjancy list
     vector<vector<int>> adj(n);
     for (int i = 0; i < m; i++)
     {
@@ -34,6 +34,7 @@ int main()
         adj[x].push_back(y);
         adj[y].push_back(x);
     }
+    // visited array
     bool cycle = false;
     vector<bool> visited(n, false);
     for (int i = 0; i < n; i++)
@@ -43,6 +44,7 @@ int main()
             cycle = true;
         }
     }
+    // checking cycle is present or not
     if (cycle)
     {
         cout << "cycle is present" << endl;
