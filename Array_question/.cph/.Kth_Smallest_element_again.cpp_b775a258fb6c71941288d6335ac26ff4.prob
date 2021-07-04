@@ -1,0 +1,1 @@
+{"name":"Local: Kth_Smallest_element_again","url":"d:\\Desktop\\DS-Algo_Repo\\Array_question\\Kth_Smallest_element_again.cpp","tests":[{"id":1624272944051,"input":"1\n1 3\n1 5\n1\n3\n6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desktop\\DS-Algo_Repo\\Array_question\\Kth_Smallest_element_again.cpp","group":"local","local":true}
