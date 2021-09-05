@@ -1,0 +1,1 @@
+{"name":"Local: TREEROOT","url":"d:\\Desktop\\DS-Algo_Repo\\Tree\\TREEROOT.cpp","tests":[{"id":1630422915731,"input":"2\n1\n4 0\n6\n1 5\n2 0\n3 0\n4 0\n5 5\n6 5","output":"4\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desktop\\DS-Algo_Repo\\Tree\\TREEROOT.cpp","group":"local","local":true}
