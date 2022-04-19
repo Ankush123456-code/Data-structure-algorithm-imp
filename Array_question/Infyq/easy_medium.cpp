@@ -31,6 +31,40 @@ int reversDigits(int num)
     }
     return rev_num;
 }
+int check_digit(int num)
+{
+    int temp = num;
+    string str = to_string(num);
+    for (int i = 0; i < str.size(); i++)
+    {
+        if (str[i] == '6')
+        {
+            str[i] = '9';
+        }
+    }
+    int num_change = stoi(str);
+    if (temp != num_change)
+    {
+        string str1 = to_string(num_change);
+        reverse(str1.begin(), str1.end());
+        num_change = stoi(str1);
+        return num_change;
+    }
+    return temp;
+}
+float solve2(vector<int> arr)
+{
+    float avg = 0;
+    int sum = 0;
+    for (int i = 0; i < arr.size(); i++)
+    {
+        int a = check_digit(arr[i]);
+        arr[i] = a;
+        sum += arr[i];
+    }
+    avg = sum / arr.size();
+    return avg;
+}
 float solve(vector<int> arr)
 {
     float avg = 0;
@@ -67,7 +101,7 @@ int main()
         if (ss.peek() == ',')
             ss.ignore();
     }
-    float ans = solve(arr);
+    float ans = solve2(arr);
     cout << fixed << setprecision(2) << ans;
     return 0;
 }
