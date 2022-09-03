@@ -1,5 +1,5 @@
 # Data structure algorithm important concept
-All important question of DS algo
+All important question of Data structure and algorithms
 ### Data structure 
 ```
 Array
