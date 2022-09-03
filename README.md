@@ -1,6 +1,6 @@
-# DS-Algo-practice-question
+# Data structure algorithm important concept
 All important question of DS algo
-### DS
+### Data structure 
 ```
 Array
 Linked list
@@ -10,6 +10,8 @@ dequeu
 priority queue
 Tree
 BST Tree
+Trie
+N-ary-Tree
 
 ````
 ### Algorithms
