@@ -5,6 +5,7 @@ using ll = long long int;
 int main()
 {
     int arr[5] = {1, 2, 3, 6, 9};
+    // is same as hashmap in java
     unordered_map<int, int> mp;
     for (size_t i = 0; i < 5; i++)
     {
