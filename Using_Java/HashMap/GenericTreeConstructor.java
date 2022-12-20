@@ -1,13 +1,4 @@
-
-<<<<<<< HEAD:Using_Java/HashMap/GenericTreeConstructor.java
-// import java.util.ArrayDeque;
 import java.util.ArrayList;
-// import java.util.Queue;
-=======
-
-import java.util.ArrayList;
-
->>>>>>> main:Using Java/HashMap/GenericTreeConstructor.java
 import java.util.Stack;
 
 public class GenericTreeConstructor {
