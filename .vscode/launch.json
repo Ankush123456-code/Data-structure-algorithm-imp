@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Using_Java.Leetcode.Practice",
+            "projectName": "DS-Algo_Repo_bca9214c"
+        },
+        {
+            "type": "java",
             "name": "Launch HighestFrequencyCharacter",
             "request": "launch",
             "mainClass": "HighestFrequencyCharacter",
