@@ -1,4 +1,4 @@
-
+package Matrix;
 import java.util.Scanner;
 
 public class RotateBy90Degree {
