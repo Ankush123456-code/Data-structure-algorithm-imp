@@ -2,6 +2,7 @@ class Solution:
     def allPathsSourceTarget(self, graph):
         ans = []
         temp = []
+        # no need to take visited array
 
         def dfs(src, dest):
             temp.append(src)
