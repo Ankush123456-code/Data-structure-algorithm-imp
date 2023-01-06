@@ -8,3 +8,4 @@ class Solution:
                 res += 1
                 end = i[1]
         return res
+
